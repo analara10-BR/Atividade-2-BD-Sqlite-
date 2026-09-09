@@ -5,7 +5,7 @@ INSERT INTO cliente (nome, email, telefone, senha) VALUES
 ('Carlos Souza', 'carlos@gmail.com', '88999990004', '123456'),
 ('Beatriz Lima', 'beatriz@gmail.com', '88999990005', '123456');
 
-INSERT INTO produto (nome_produto, categoria, tamanho, preco, estado_conservacao) VALUES
+INSERT INTO produto (nome, categoria, tamanho, preco, estado_conservacao) VALUES
 ('Camiseta Basica', 'Camiseta', 'M', 39.90, 'Excelente'),
 ('Calca Jeans', 'Calca', '38', 79.90, 'Muito bom'),
 ('Vestido Floral', 'Vestido', 'M', 89.90, 'Excelente'),
