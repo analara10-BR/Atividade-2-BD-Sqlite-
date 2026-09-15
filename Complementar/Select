@@ -1,0 +1,15 @@
+SELECT *
+FROM aluno
+WHERE turma = '1A'
+ORDER BY nome ASC;
+
+
+SELECT
+    aluno.nome AS aluno,
+    disciplina.nome AS disciplina
+FROM aluno
+JOIN matricula
+    ON aluno.id_aluno = matricula.id_aluno
+JOIN disciplina
+    ON disciplina.id_disciplina = matricula.id_disciplina
+ORDER BY aluno.nome ASC;
