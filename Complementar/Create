@@ -3,3 +3,19 @@ CREATE TABLE aluno (
     nome TEXT NOT NULL,
     turma TEXT NOT NULL
 );
+
+
+CREATE TABLE disciplina (
+    id_disciplina INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL
+);
+
+
+CREATE TABLE matricula (
+    id_matricula INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_aluno INTEGER NOT NULL,
+    id_disciplina INTEGER NOT NULL,
+    FOREIGN KEY (id_aluno) REFERENCES aluno(id_aluno),
+    FOREIGN KEY (id_disciplina) REFERENCES disciplina(id_disciplina)
+);
+
