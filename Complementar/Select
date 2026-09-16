@@ -1,15 +1,34 @@
+-- CONSULTA 1
+
+-- Lista os alunos de uma determinada turma
+-- WHERE filtra somente a turma 1A
+-- ORDER BY organiza os nomes em ordem alfabética
 SELECT *
 FROM aluno
 WHERE turma = '1A'
 ORDER BY nome ASC;
 
 
+-- CONSULTA 2
+
+-- Lista o nome de cada aluno e as disciplinas
+-- que ele está cursando
 SELECT
     aluno.nome AS aluno,
     disciplina.nome AS disciplina
+
+-- Começamos pela tabela aluno
 FROM aluno
+
+-- JOIN relaciona aluno com matrícula
+-- através do id_aluno
 JOIN matricula
     ON aluno.id_aluno = matricula.id_aluno
+
+-- Outro JOIN relaciona matrícula com disciplina
+-- através do id_disciplina
 JOIN disciplina
     ON disciplina.id_disciplina = matricula.id_disciplina
+
+-- Organiza o resultado pelo nome do aluno
 ORDER BY aluno.nome ASC;
