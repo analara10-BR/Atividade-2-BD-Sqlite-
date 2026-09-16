@@ -1,3 +1,7 @@
+
+-- INSERÇÃO DOS ALUNOS
+
+-- Adicionamos 10 alunos à tabela aluno
 INSERT INTO aluno (nome, turma) VALUES
 ('Amanda Silva', '1A'),
 ('Bruno Santos', '1A'),
@@ -10,11 +14,21 @@ INSERT INTO aluno (nome, turma) VALUES
 ('Isabela Rodrigues', '2A'),
 ('Joao Pedro', '2B');
 
+
+-- INSERÇÃO DAS DISCIPLINAS
+
+-- Adicionamos 3 disciplinas
 INSERT INTO disciplina (nome) VALUES
 ('Engenharia de Software'),
 ('Sistemas Operacionais'),
 ('Desenvolvimento Web');
 
+
+-- INSERÇÃO DAS MATRÍCULAS
+
+-- Aqui relacionamos os alunos com as disciplinas
+-- O primeiro número é o id do aluno
+-- O segundo número é o id da disciplina
 INSERT INTO matricula (id_aluno, id_disciplina) VALUES
 (1, 1),
 (1, 2),
