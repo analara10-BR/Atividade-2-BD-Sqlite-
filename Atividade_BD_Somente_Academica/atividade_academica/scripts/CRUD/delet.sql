@@ -1,2 +1,0 @@
--- Exemplo de DELETE na tabela associativa
--- DELETE FROM aluno_disciplina WHERE aluno_id = 10 AND disciplina_id = 3;
