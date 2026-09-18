@@ -1,4 +1,4 @@
--- Reúne as duas consultas solicitadas na atividade complementar.
+
 PRAGMA foreign_keys = ON;
 -- Ativa a verificação das chaves estrangeiras antes das consultas.
 
