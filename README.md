@@ -1,6 +1,6 @@
 # Atividade BD Completa
 
-Banco SQLite acadêmico conforme a atividade. **Não inclui Brechó Online.**
+
 
 ## Estrutura
 - 2 turmas: Informática 1 e Informática 2
