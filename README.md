@@ -16,7 +16,6 @@ Banco SQLite acadêmico conforme a atividade. **Não inclui Brechó Online.**
 ## Conteúdos demonstrados
 PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, AUTOINCREMENT, PRAGMA foreign_keys, CREATE/INSERT, SELECT, WHERE, JOIN, ORDER BY, GROUP BY, COUNT, UPDATE e DELETE.
 
-Os arquivos SQL possuem comentários para explicar o código e facilitar a apresentação no GitHub.
 
 ## Atividade complementar
 - +10 alunos
@@ -25,5 +24,4 @@ Os arquivos SQL possuem comentários para explicar o código e facilitar a apres
 - consulta de alunos de uma turma em ordem alfabética
 - consulta das disciplinas cursadas por cada aluno
 
-## Observação
-Não foi adicionada uma terceira turma porque isso não foi solicitado pela atividade complementar.
+
