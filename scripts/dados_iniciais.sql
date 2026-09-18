@@ -1,6 +1,3 @@
--- Insere os dados usados como base do banco.
--- A atividade complementar acrescenta 10 alunos, 3 disciplinas e novas matrículas.
--- As duas turmas originais são mantidas; não é criada uma terceira turma.
 PRAGMA foreign_keys = ON;
 
 -- Insere as duas turmas que fazem parte da base original.
