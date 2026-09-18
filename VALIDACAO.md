@@ -11,4 +11,3 @@
 - q1_sorted: True
 - q2_rows: 26
 
-`sqlite_sequence` é tabela interna do SQLite e não faz parte do projeto.
